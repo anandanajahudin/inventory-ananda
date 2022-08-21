@@ -6,10 +6,13 @@ inventory-ananda adalah project yang digunakan untuk melakukan penyimpanan data 
 ## Cara Instalasi Project
 
 ### Instalasi Project
-1. Clone repository atau download file project dari repository github terlebih dahulu dengan cara ketik di command-line anda
+1. Clone project dari repository github terlebih dahulu dengan cara ketik di command-line anda
+
 git clone https://github.com/anandanajahudin/inventory-ananda.git
 
-Atau anda bisa mengunduh berupa file .zip dengan cara bukalah link https://github.com/anandanajahudin/inventory-ananda.git kemudian klik tombol hijau "Code", lalu pilih "Download ZIP"
+Atau anda bisa mengunduh berupa file .zip dengan cara bukalah link https://github.com/anandanajahudin/inventory-ananda.git
+
+Kemudian klik tombol hijau "Code", lalu pilih "Download ZIP"
 
 2. Kemudian bukalah project di IDE anda lalu buka terminal atau command-line
 
@@ -23,21 +26,29 @@ Atau anda bisa mengunduh berupa file .zip dengan cara bukalah link https://githu
 3. Kemudian bukalah file .env
 
 Lalu setting file env seperti di bawah ini:
+
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=inventory
+
 DB_USERNAME=root
+
 DB_PASSWORD=
 
-(username dan password database bisa disesuaikan dengan hak akses yang anda miliki di database anda)
+(username dan password database, disesuaikan dengan hak akses yang anda miliki di database anda)
 
 4. Lalu jalankan perintah command-line "php artisan key:generate"
+
 Untuk mendeklarasikan kunci di dalam file .env agar project dapat dijalankan
 
-4. Lalu jalankan migrasi database, jalankan perintah "php artisan migrate"
+5. Lalu jalankan migrasi database, jalankan perintah "php artisan migrate"
 
-5. Setelah itu jalankan seeder agar dapat masuk sebagai admin
+6. Setelah itu jalankan seeder agar dapat masuk sebagai admin
+
 Jalankan perintah "php artisan db:seed"
 
 ### Menjalankan Project
