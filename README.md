@@ -46,16 +46,28 @@ DB_PASSWORD=
 4. Lalu jalankan perintah command-line 
 
 ```
-php artisan key:generate"
+php artisan key:generate
 ```
 
 Untuk mendeklarasikan kunci di dalam file .env agar project dapat dijalankan
 
-5. Lalu jalankan migrasi database, jalankan perintah "php artisan migrate"
+5. Lalu jalankan migrasi database, jalankan perintah
+
+```
+php artisan migrate"
+```
 
 6. Setelah itu jalankan seeder agar dapat masuk sebagai admin
 
-Jalankan perintah "php artisan db:seed"
+Jalankan perintah
+
+```
+php artisan db:seed
+```
 
 ### Menjalankan Project
-1. Kemudian jalankan file project dengan perintah "php artisan serve"
+1. Kemudian jalankan file project dengan perintah
+
+```
+php artisan serve
+```
